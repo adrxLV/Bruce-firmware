@@ -6,6 +6,9 @@
 MainMenu::MainMenu() {
     _menuItems = {
         &wifiMenu,
+#if !defined(LITE_VERSION)
+        &aiMenu,
+#endif
         &bleMenu,
         &rfMenu,
         &nrf24Menu,

@@ -3,6 +3,7 @@
 
 #include <MenuItemInterface.h>
 
+#include "menu_items/AIMenu.h"
 #include "menu_items/BleMenu.h"
 #include "menu_items/ClockMenu.h"
 #include "menu_items/ConfigMenu.h"
@@ -22,6 +23,9 @@
 #include "menu_items/WireToolsMenu.h"
 class MainMenu {
 public:
+#if !defined(LITE_VERSION)
+    AIMenu aiMenu;
+#endif
     FileMenu fileMenu;
     BleMenu bleMenu;
     ClockMenu clockMenu;
