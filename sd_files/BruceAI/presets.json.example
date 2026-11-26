@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Portfolio Portal",
+    "prompt": "Inicia um Wi-Fi portal do meu portfolio"
+  },
+  {
+    "label": "List SD Portals",
+    "prompt": "Procura ficheiros HTML no cartao SD e lista-os"
+  },
+  {
+    "label": "Wi-Fi Scan",
+    "prompt": "Faz um scan as redes Wi-Fi por perto e resume os resultados"
+  },
+  {
+    "label": "Device Status",
+    "prompt": "Mostra o estado atual do dispositivo, bateria, RAM e Wi-Fi"
+  },
+  {
+    "label": "LEDs Cyan",
+    "prompt": "Muda os LEDs RGB para ciano"
+  }
+]

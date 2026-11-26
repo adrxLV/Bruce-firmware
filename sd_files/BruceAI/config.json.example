@@ -1,0 +1,10 @@
+{
+  "gateway_url": "https://your-tunnel.example.com",
+  "device_token": "REPLACE_WITH_DEVICE_SECRET",
+  "device_id": "tembed-cc1101",
+  "timeout_ms": 30000,
+  "voice_max_ms": 8000,
+  "voice_gain": 2.0,
+  "insecure_tls": true,
+  "ca_cert_path": "/BruceAI/ca_cert.pem"
+}
